@@ -1,0 +1,17 @@
+proxies:
+  - name: jagoanssh-Wasniii
+    server: id1-ray.ipservers.xyz
+    port: 443
+    type: vmess
+    uuid: 6b0b4677-4ea3-490f-b818-bf380ac5ac3b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: c.whatsapp.net
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: c.whatsapp.net
+    udp: true
