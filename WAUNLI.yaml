@@ -1,0 +1,33 @@
+proxies:
+  - name: jagoanssh-Wasniii
+    server: id1-ray.ipservers.xyz
+    port: 443
+    type: vmess
+    uuid: 6b0b4677-4ea3-490f-b818-bf380ac5ac3b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: graph.instagram.com
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: graph.instagram.com
+    udp: true
+  - name: jagoanssh-Waunliiii
+    server: id2-ray.ipservers.xyz
+    port: 443
+    type: vmess
+    uuid: 986537ad-d5d8-4efb-91b1-ce437f5dfc78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: graph.instagram.com
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: graph.instagram.com
+    udp: true
